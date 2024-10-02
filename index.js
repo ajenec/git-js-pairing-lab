@@ -21,10 +21,10 @@ function multiplesOfThree() {
 multiplesOfThree();
 
 //3
-function multiplesThreeOrFive() {
+const multiplesThreeOrFive() {
     for (let i = 3; i < 101; i++) {
         if (i % 3 === 0 || i % 5 === 0) {
-            console.log)(i)
+            console.log(i)
         }
     }
 }
