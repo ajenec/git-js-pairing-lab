@@ -37,14 +37,24 @@ const unitlNum = (num) => {
   }
      
 };
-unitlNum(5);
-unitlNum(9);
-unitlNum(42);
+//unitlNum(5);
+//unitlNum(9);
+//unitlNum(42);
 
 //5
 const multiply = (num1, num2) => {
     return num1 * num2
 }
-console.log(multiply(2, 4));
-console.log(multiply(10, -5));
-console.log(multiply(3, 7.5));
+//console.log(multiply(2, 4));
+//console.log(multiply(10, -5));
+//console.log(multiply(3, 7.5));
+
+//6.
+const add = (num1, num2) => {
+  let sum = num1 + num2;
+  if (num1 === num2){
+    return console.log(sum * 3);
+  }
+};
+
+console.log(add(3,9));
