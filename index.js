@@ -58,3 +58,30 @@ const add = (num1, num2) => {
 };
 
 console.log(add(3,9));
+
+//7
+const isNegative = (num) => {
+    if (num <0){
+        console.log(false)
+    } else {
+        console.log(false)
+    }
+}
+isNegative(3)
+isNegative(-2)
+isNegative(Math.PI)
+
+//8.
+
+//9
+const betweenTwentyAndFourty = (num) => {
+    if (num > 20 && num > 40) {
+        console.log(true)
+    } else {
+        console.log(false)
+    }
+}
+betweenTwentyAndFourty(20)
+betweenTwentyAndFourty(21)
+betweenTwentyAndFourty(39)
+betweenTwentyAndFourty(40)
