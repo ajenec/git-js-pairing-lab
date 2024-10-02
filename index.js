@@ -37,4 +37,14 @@ const unitlNum = (num) => {
   }
      
 };
+unitlNum(5);
 unitlNum(9);
+unitlNum(42);
+
+//5
+const multiply = (num1, num2) => {
+    return num1 * num2
+}
+console.log(multiply(2, 4));
+console.log(multiply(10, -5));
+console.log(multiply(3, 7.5));
