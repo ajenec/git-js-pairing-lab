@@ -2,23 +2,23 @@
 
 //1.
 const fiveToOneHundred = () => {
-    for (let i =5; i < 101; i++) {
+    for (let i =5; i <= 100; i++) {
         console.log(i);
     }
 };
-fiveToOneHundred();
+//fiveToOneHundred();
 
 //2.
 const multiplesOfThree = () => {
     
-    for (let i =0; i <101; i++) {
+    for (let i =0; i <=100; i++) {
         if (i % 3 === 0){
           console.log(i);
         };
     }
 };
 
-multiplesOfThree();
+//multiplesOfThree();
 
 //3
 const multiplesOfThreeOrFive = () => {
@@ -28,9 +28,13 @@ const multiplesOfThreeOrFive = () => {
         }
     }
 };
-multiplesOfThreeOrFive();
+//multiplesOfThreeOrFive();
 
 //4
-//const unitlNum = (num) => {
-    //for (let i = 0; i <= num)
-//}
+const unitlNum = (num) => {
+  for (let i = 0; i <= num; i++) {
+    console.log(i);
+  }
+     
+};
+unitlNum(9);
