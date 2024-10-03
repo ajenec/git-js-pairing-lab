@@ -57,7 +57,7 @@ const add = (num1, num2) => {
   }
 };
 
-console.log(add(3,9));
+//console.log(add(3,9));
 
 //7
 const isNegative = (num) => {
@@ -67,11 +67,18 @@ const isNegative = (num) => {
         console.log(false)
     }
 }
-isNegative(3)
+/*isNegative(3)
 isNegative(-2)
-isNegative(Math.PI)
+isNegative(Math.PI)*/
 
 //8.
+const triangleArea = (base, height) => {
+    let area = base * height * 0.5;
+    console.log(area);
+};
+
+//triangleArea(5,7);
+//triangleArea(6,8);
 
 //9
 const betweenTwentyAndFourty = (num) => {
@@ -81,7 +88,19 @@ const betweenTwentyAndFourty = (num) => {
         console.log(false)
     }
 }
-betweenTwentyAndFourty(20)
+/*betweenTwentyAndFourty(20)
 betweenTwentyAndFourty(21)
 betweenTwentyAndFourty(39)
-betweenTwentyAndFourty(40)
+betweenTwentyAndFourty(40)*/
+
+//10.
+const largest = (num, num2, num3) => {
+    
+    if(num > num2 && num > num3){
+        console.log(num);
+    } else if (num2 > num && num2 > num3){
+        console.log(num2);
+    } else {
+        console.log(num3);
+    }
+}
