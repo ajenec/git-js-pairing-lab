@@ -103,4 +103,7 @@ const largest = (num, num2, num3) => {
     } else {
         console.log(num3);
     }
-}
+};
+largest(4, 6, 8);        
+largest(30, 22, 17);     
+largest(41, 108, 86);    
